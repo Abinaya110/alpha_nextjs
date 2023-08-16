@@ -3,10 +3,11 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "dev": "react-scripts dev",
-    "build": "react-scripts build",
-    "start": "react-scripts start",
-    "export": "react-scripts export",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "serve": "next start",
+    "export": "next export",
     "postbuild": "next-sitemap"
   },
   "dependencies": {
